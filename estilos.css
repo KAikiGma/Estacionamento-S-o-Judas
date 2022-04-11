@@ -1,37 +1,54 @@
 h1 {
-    color: blue;
+    color: white;
 	font-size: 2.5em; /* 40/16=2.5 */
-border-bottom: blue solid thin;
+border-bottom: white solid thin;
 padding-bottom: 7px;
-
+text-align: center;
 }
 
 h2 {
     font-size: 1.75em;
+    text-align: center;
 }
 
 p { 	
 font-size: 1.1em; 	
 line-height: 1.3em; 	
 text-align: justify; 
+text-align: center;
 }
 
 p:first-line {
 font-size: 1.17em;
 font-variant: small-caps;
 font-style: italic;
+text-align: center;
 }
 
 hr {
-border-color: blue;
+border-color: white;
 }
 
 body { 	
-background-color: white;
-color: blue;
+background-color: rgb(120, 137, 214);
+color: white;
 }
 
-nav {
-    color: blue;
-    
+.logo{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #f0dfdf;
 }
